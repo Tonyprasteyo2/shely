@@ -1,0 +1,1532 @@
+#headerbungkus{
+	height:685px;
+	position: relative;
+}
+.gambarbanner img{
+	position: absolute;
+	right: 0;
+	max-height: 500px;
+	min-width: 50%;
+}
+/*header*/
+.header-info{
+	position: relative;
+	background-color: transparent;
+	width: 100%;
+	display: flex;
+	height: 90px;
+	padding: 17px 18px;
+}
+.logo{
+	flex-grow: 7;
+}
+.listkontak{
+	flex-grow: 1;
+	display: flex;
+}
+.kontak-sales h4{
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	color: #575757;
+}
+.kontak-sales{
+	position: relative;
+	left: 20px;
+	top: -24px;
+	padding-left: 6px;
+}
+.kontak-sales span{
+	font-size: 15px;
+	color: #000;
+	letter-spacing: 0.5px;
+	font-weight: 500;
+}
+.garis{
+	border: solid 1.5px #eae5e5;
+	display: inherit;
+	position: relative;
+	width: 100%;
+}
+/*end kontak header*/
+/*navbar*/
+.menu-list{
+	position: relative;
+}
+.navbar-brand{
+	display: none;
+}
+.nav-link{
+	margin:6px;
+	color: #000;
+	letter-spacing: 0.7px;
+	font-size: 20.59px;
+}
+
+#buttonmenu span img{
+	max-width: 55px;
+	max-height: 33.3px;
+	display: block;
+	margin: 6px;
+	position: relative;
+}
+#banner-foto{
+	position: relative;
+	padding: 10px 5px 10px 9px;
+}
+.title-banner{
+	color: #f37335;
+	font-size: 180px;
+	left: -5px;
+	position: absolute;
+	top: 40%;
+	opacity: 0.11;
+}
+.info-banner{
+	height: 470px;
+	position: relative;
+	z-index: 1;
+	padding: 10px 12px 9px 11px;
+}
+.info-banner h2{
+	letter-spacing: 1.3px;
+	color: #2b2b2b;
+	font-size: 65.05px;
+	font-weight: 610;
+	line-height: 81.30px;
+	padding: 10px;
+	position: absolute;
+	display: inline-block;
+}
+.info-banner span{
+	position: relative;
+	display: inline-block;
+	letter-spacing: 1.3px;
+	font-size: 65px;
+	color: #f37335;
+}
+.info-banner span:before{
+	content: '';
+	background-color: red;
+	position: absolute;
+	visibility: visible;
+	height: 3px;
+	width: 100%;
+	bottom: -4px;
+}
+.deskripsi-banner{
+	color: #575757;
+	font-size: 15px;
+	position: relative;
+	display: block;
+	top: 135px;
+	max-width: 590px;
+}
+.info-banner img{
+	position: absolute;
+	display: inline-block;
+	top: 36px;
+}
+.foto-banner{
+	height: 460px;
+	position: relative;
+	animation: fotobanner 4s ease;
+}
+.foto-banner img{
+	position: absolute;
+	display: block;
+	max-width: 430px;
+}
+.search{
+	position: absolute;
+	height: 40px;
+	top: 20px;
+}
+.cari-search{
+	cursor: pointer;
+	top: 0;
+	text-decoration: none;
+	color: #fff;
+	float: right;
+	width: 50px;
+	height: 25px;
+	border-radius: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 2s ease;
+}
+.search-input{
+	border: none;
+	background: none;
+	color: #000;
+	outline: none;
+	transition: 0.4s ease;
+	line-height: 20px;
+	opacity: 0;
+	width: 0;
+	border-bottom: 1.5px solid #000;
+}
+.search:hover .search-input{
+	width: 150px;
+	padding: 1px 3px;
+	opacity: 1;
+}
+.cari-banner-foto{
+	display: none;
+}
+.nav-link:before{
+	display: block;
+	position: absolute;
+	content: '';
+	width: 0;
+	top: 9px;
+	height: 4px;
+	background-color: cyan;
+	left: 50px;
+	transition: all 0.5s ease-in;
+}
+.nav-item a{
+	position: relative;
+}
+.nav-link:hover:before{
+	width: 100%;
+	left: 0;
+	color: #000;
+}
+/*tentang kami*/
+.judul-tentang{
+	text-align: center;
+	letter-spacing: 1.5px;
+	color: #2b2b2b;
+	font-weight: 700;
+	font-size: 48.77px;
+}
+.judul-tentang span{
+	color: #f37335;
+}
+.deskripsi-tentang p{
+	margin: auto;
+	max-width: 400px;
+	text-align: center;
+	color: #575757;
+	font-size: 14.2px;
+	letter-spacing: 0.5px;
+	line-height: 22.36px;
+}
+.icon-tentang{
+	margin-top: 20px;
+	padding: 10px 9px 9px 3px;
+}
+.teader-tentang,.global-tentang,.best-tentang,.student-tentang{
+	padding: 25px 20px 20px;
+	padding: 10px;
+	height: 160px;
+	border-radius: 10px;
+	box-shadow: 2 2 20px rgba(21,87,153,.09);
+	animation: icontentang 4s 2s linear;
+	top: 500px;
+	box-shadow: 0 0 10px rgba(23,90,153,.08);
+}
+@keyframes icontentang{
+	from{
+		transform:rotate(200deg);
+	}
+}
+.teader-tentang h3,.global-tentang h3,.best-tentang h3,.student-tentang h3{
+	color: #2b2b2b;
+	font-size: 18.30px;
+	font-weight: 500;
+	text-transform: capitalize;
+	margin-bottom: 3px;
+}
+.teader-tentang p,.global-tentang p,.best-tentang p,.student-tentang p{
+	color: #575757;
+	font-size: 13.5px;
+	line-height: 22.35px;
+}
+.sampul-tentang{
+	position: relative;
+	top: 30px;
+	padding: 10px 9px 2px 4px;
+}
+.image-tentang{
+	max-height: 330px;
+	width: 100%;
+	position: absolute;
+}
+.flipster{
+	overflow: hidden;
+}
+.flip-items img{
+	width: 700px;
+	height: 400px;
+	overflow: hidden;
+	object-fit: contain;
+	border-radius: 5px;
+}
+/*end tentang*/
+
+/*classes*/
+#classes{
+	height: 799px;
+	padding: 33px 10px;
+}
+.title-class{
+	margin-bottom: 43px;
+}
+.title-class h2:before{
+	content: '';
+	background-image: url(../img/13.png);
+	position: absolute;
+	width: 115px;
+	left: -40px;
+	background-repeat: no-repeat;
+	height: 110px;
+	z-index: -1;
+	top: -65px;
+}
+.title-class h2 {
+	top: 100px;
+	position: relative;
+	z-index: 1;
+	color: #000;
+	font-size: 49px;
+	text-transform: capitalize;
+	font-weight: 700;
+	margin-bottom: 113px;
+}
+.title-class p{
+	color: #575757;
+	font-size: 15px;
+	line-height: 23px;
+	max-width: 530px;
+}
+.img-class{
+	padding: 5px 2px 2px 5px;
+}
+.owl-carousel .owl-item img{
+	border-bottom: 2px solid red;
+}
+.judul-class-slide{
+	cursor: pointer;
+	font-size: 18px;
+	color: #2b2b2b;
+	line-height: 24px;
+	margin-bottom: 3px;
+	top: -30px;
+}
+.card-body span{
+	display: inline-block;
+	color: #575757;
+	font-size: 14.23px;
+	margin-bottom: 20px;
+}
+.penulis-class img{
+	display: inline-block;
+	border-radius: 100px;
+	max-width: 28px;
+	vertical-align: middle;
+}
+.penulis-class a{
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14.23px;
+	color: #575757;
+	left: 10px;
+	position: relative;
+}
+.penulis-class strong{
+	left: 130px;
+	position: relative;
+	display: inline-block;
+}
+.card{
+	border-radius: 5px;
+	animation: clasnew 5s 1.9s;
+	box-shadow: 0px 1px 7px 1px rgba(0,0,0,0.75);
+}
+@keyframes clasnew{
+	to{
+		-moz-transform: scale(0.9) rotate(360deg) translate(-1px, 50px) skew(2deg, 0deg);
+		-webkit-transform: scale(0.9) rotate(360deg) translate(-1px, 50px) skew(2deg, 0deg);
+		-o-transform: scale(0.9) rotate(360deg) translate(-1px, 50px) skew(2deg, 0deg);
+		-ms-transform: scale(0.9) rotate(360deg) translate(-1px, 50px) skew(2deg, 0deg);
+		transform: scale(0.9) rotate(360deg) translate(-1px, 50px) skew(2deg, 1deg);
+		transition: all 0.5s ease-in-out;
+	}
+}
+.owl-nav{
+	display: none;
+}
+.lihat-arah{
+	background-color: #135e9e;
+	border-radius: 38px;
+	transition: all 0.5s ease-in-out;
+	display: block;
+	margin: auto;
+	line-height: 41.5px;
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	letter-spacing: 1.2px;
+	color: #fff;
+	font-size: 20.35px;
+	position: relative;
+}
+.button-arah i{
+	line-height: 27px;
+	border-radius: 50px;
+	background-color: #fff;
+	width: 28px;
+	height: 28px;
+	color: #135393;
+	font-size: 25.5px;
+	position: absolute;
+	top: 6px;
+}
+.lihat-arah:hover{
+	background-color: #f37335;
+	color: #fff;
+}
+.button-arah i:before{
+	content: '\f30b';
+}
+.button-arah{
+	top: 30px;
+	margin: auto;
+  	width: 198px;
+  	max-width: 196px;
+  	position: relative;
+}
+
+/*end*/
+
+/*teader guru*/
+#guru{
+	height: auto;
+}
+.title-guru{
+	text-align: center;
+	max-width: 526px;
+	margin: auto;
+	position: relative;
+	top: 30px;
+}
+.title-guru h2{
+	color: #2b2b2b;
+	font-size: 48.80px;
+	font-weight: 600;
+	letter-spacing: 1.3px;
+	margin-bottom: 18.5px;
+	line-height: 58.50px;
+}
+.title-guru p{
+	color: #575757;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	line-height: 23px;
+	margin-bottom: 50px;
+}
+.foto-kepala-guru{
+	width: 100%;
+	position: relative;
+	object-fit: contain;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+}
+.nama-guru{
+	background: linear-gradient(180deg,#fdc830,#f37335);
+	position: absolute;
+	right: 18px;
+	width: 40px;
+	text-align: center;
+	padding: 8px 1px 9px;
+	border-radius: 30px;
+	cursor: pointer;
+	top: 0;
+	transition: all 3s ease-in;
+}
+.nama-guru ul{
+	display: none;
+}
+.nama-guru:hover ul{
+	display: block;
+}
+.info-guru h3{
+	position: relative;
+	font-size: 16px;
+	color: #2b2b2b;
+	font-weight: 500;
+	text-align: center;
+	letter-spacing: 0.3px;
+	margin-bottom: 8px;
+	top: 7px;
+}
+.info-guru span{
+	text-align: center;
+	color: #155799;
+	display: block;
+	font-size: 14.50px;
+	letter-spacing: 0.4px;
+}
+/*end*/
+
+/*course*/
+.background-find{
+	position: absolute;
+	right: 25px;
+	display: block;
+	width: 90%;
+	max-height: 450px;
+	top: 27%;
+	object-fit: contain;
+	background-repeat: no-repeat;
+}
+.title-course h2{
+	color: #2b2b2b;
+	font-size: 48.77px;
+	letter-spacing: 0.5px;
+	z-index: 1;
+	margin-bottom: 7px;
+	text-transform: capitalize;
+}
+.title-course p{
+	max-width: 530px;
+	color: #575757;
+	line-height: 23px;
+	font-size: 14.23px;
+}
+.depan-course img{
+	position: relative;
+	display: block;
+	background-repeat: no-repeat;
+	width: 100%;
+	object-fit: contain;
+}
+.course-comen{
+	background-color: #fff;
+	position: relative;
+	padding: 5px;
+	height: 150px;
+	left: 33px;
+	border-top-right-radius: 9px;
+	border-bottom-right-radius: 9px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-left: 10px solid #fd7e14;
+	animation: coursepertama 5s;
+	box-shadow: 0 0 10px rgba(21,87,153,.08);
+}
+@keyframes coursepertama{
+	0%{
+		opacity: 0;
+		transform: translateX(-500px);
+	}
+	80%{
+		transform: translateX(7px);
+	}
+	100%{
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+.comen-list ul{
+	display: inline-block;
+	width: 83%;
+}
+.comen-list ul li{
+	color: #575757;
+	font-size: 14.23px;
+}
+.comen-list span{
+	color: #155799;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 0.6px;
+}
+.course-comen h3{
+	font-size: 23px;
+	letter-spacing: 1px;
+	margin-bottom: 21px;
+	margin-top: 15px;
+	text-transform: capitalize;
+}
+.course-comen a,.left-course-comen a,.ketiga-course-comen a{
+	color: #2b2b2b;
+	text-decoration: none;
+}
+.location{
+	display: block;
+	font-size: 14.23px;
+	color: #575757;
+	float: right;
+}
+.left-course-comen{
+	background-color: #fff;
+	position: relative;
+	padding: 5px;
+	height: 150px;
+	margin-top: 20px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-left: 10px solid #fd7e14;
+	border-top-right-radius: 9px;
+	border-bottom-right-radius: 9px;
+	left: -34.95px;
+	animation: leftcourse 4s 5s;
+	box-shadow: 0 0 10px rgba(21,87,153,.08);
+}
+@keyframes leftcourse{
+	0%{
+		opacity: 0;
+		transform: translateX(-500px);
+	}
+	83%{
+		transform: translateX(9.5px);
+	}
+	100%{
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+.ketiga-course-comen{
+	border-top-right-radius: 9px;
+	border-bottom-right-radius: 9px;
+	background-color: #fff;
+	position: relative;
+	padding: 5px;
+	height: 150px;
+	left: 33px;
+	margin-top: 20px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-left: 10px solid #fd7e14;
+	animation: ketigacourse 4.4s 6s;
+	box-shadow: 0 0 10px rgba(21,87,153,.08);
+}
+@keyframes ketigacourse{
+	0%{
+		opacity: 0;
+		transform: translateX(-500px);
+	}
+	80%{
+		transform: translateX(7.5px);
+	}
+	100%{
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+/*end*/
+
+/*berita info*/
+#info-berita{
+	height: auto;
+	padding: 10px 15px 13px 13px;
+}
+.new h2{
+	color: #2b2b2b;
+	font-size: 49px;
+	letter-spacing: 1.3px;
+	margin-bottom: 8px;
+}
+.new p{
+	color: #5757;
+	font-size: 15px;
+	line-height: 22.35px;
+	max-width: 550px;
+	margin: auto;
+}
+.berita-isi{
+	margin-top: 15px;
+}
+.view-berita img{
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+	border-radius: 13.5px;
+}
+.imge-hover{
+	left: 0;
+	width: 100%;
+	height: 250px;
+	position: absolute;
+	background-color: rgba(0,0,0,.3);
+	border-radius: 13.5px;
+	opacity: 0;
+	cursor: pointer;
+	transition: all 0.4s;
+}
+.imge-hover:hover{
+	opacity: 0.5;
+}
+
+.berita-info3,.berita-info2,.berita-info{
+	position: relative;
+	padding: 0;
+}
+.berita-info,.berita-info2,.berita-info3{
+	max-width: 366px;
+	margin: 5px;
+}
+.mata-belajar{
+	background-color: yellow;
+	padding: 10px 11px;
+	position: absolute;
+	border-radius: 20px;
+	height: 40px;
+	line-height: 15px;
+	left: 5.54px;
+	top: 6px;
+	display: inline-block;
+}
+.pin-mata{
+	max-width: 19px;
+	max-height: 14.3px;
+	top: 18px;
+	left: 16px;
+	position: absolute;
+}
+.author{
+	display: flex;
+	position: relative;
+}
+.author li{
+	display: block;
+	position: relative;
+	text-align: center;
+	margin: auto;
+	padding: 10px 10px;
+}
+.info-berita-guru h3{
+	color: #2b2b2b;
+	font-size: 21.55px;
+	letter-spacing: 1px;
+	margin-top: -19.58px;
+	padding: 5px 5px 3px 5px;
+}
+.info-berita-guru p{
+	color:#575757;
+	line-height: 22.30px;
+	font-size: 14.5px;
+	padding: 5px 5px 3px 5px;
+}
+.author li a{
+	text-decoration: none; 
+	color: #575757;
+	font-size: 14.35px;
+	line-height: 22px;
+	position: relative;
+	left: 23.95px;
+	top: 0;
+}
+/*end*/
+/*join*/
+.join-baru{
+	margin-top: 100px;
+	background: linear-gradient(90deg,#fdc830,#f37335);
+	height: auto;
+	border-radius: 35.95px;
+}
+.info-join{
+	position: relative;
+	height: 250px;
+}
+.info-join h2{
+	width: 300px;
+	margin: auto;
+	color: #2b2b2b;
+	font-size: 37.55px;
+	line-height: 44x;
+}
+.form-login{
+	position: relative;
+	padding: 15px 19px;
+}
+.join-button{
+	position: relative;
+	top: -77px;
+	width: 300px;
+	margin: auto;
+}
+.join-button a{
+	min-width: 150px;
+	max-height: 150px;
+	position: relative;
+	border-radius: 28.95px;
+	display: inline-block;
+	top: 13.50px;
+	letter-spacing: 1.5px;
+	cursor: pointer;
+	border: none;
+	transition: all 0.4s ease-in-out;
+	font-size: 19.5px;
+	font-weight: 500;
+}
+.join-button i{
+	background-color: #fff;
+	left: 5px;
+	top:5.65px;
+	width: 28.5px;
+	height: 24.55px;
+	border-radius: 50px;
+	line-height: 18.5px;
+	padding: 2.5px;
+	position: absolute;
+}
+.join-button .fa-arrow-right:before{
+	content: "\f30b";
+	color: #0069d9;
+}
+.join-button a:hover{
+	background-color: #f37335;
+}
+.join-button i:hover:before{
+	color: #f37335;
+}
+.info-join:before{
+	content: '';
+	background-image: url('../img/joinimagge.png');
+	position: absolute;
+	width: 58px;
+	height: 115px;
+	left: 0;
+}
+.alamat-form-login textarea{
+	height: 150px;
+}
+.login-input-form input,.login-input-form textarea,.login-input-form select{
+	border: none;
+	border-radius: 20px;
+	margin: 5px;
+	opacity: 0.7;
+}
+.form-login:after{
+	content: '';
+	position: absolute;
+	right: 0;
+	background: url('../img/24.png');
+	width: 57px;
+	height: 58px;
+	transform: rotate(-90deg);
+	background-repeat: no-repeat;
+}
+/*end */
+/*footer*/
+#footer{
+	background-color: #f2f7fd;;
+	position: relative;
+	top: 20.95px;
+	padding: 20px;
+}
+.footer-tentang p{
+	margin-top: 30px;
+	color: #575757;
+	font-size: 15px;
+	letter-spacing: 0.5px;
+	line-height: 23px;
+}
+.list-footer img{
+	vertical-align: top;
+	margin-right: 5px;
+	position: relative;
+	top: 6px;
+}
+.kontak-telepon-footer{
+	display: inline-block;
+	max-width: calc(100% - 21px);
+}
+.kontak-telepon-footer h4{
+	color: #2b2b2b;
+	font-size: 15px;
+	font-weight: 500;
+	letter-spacing: 0.7px;
+}
+.kontak-telepon-footer span{
+	font-size: 15px;
+	color: #5757;
+	display: block;
+}
+.map-footer iframe{
+	min-width: 300px;
+	height: 200px;
+}
+.footer-bottom{
+	margin-top: 20px;
+	border-top:1.1px solid #bfbf;
+	padding-top: 6px;
+	text-align: center;
+	color: #5757;
+	font-feature-settings: 14.25px;
+	line-height: 23.50px;
+}
+.dropdown-menu{
+	display: block;
+	margin-top: 3px;
+	opacity: 0;
+	transition: all 1s ease;
+	background-color: #fff;
+	border-radius: 3px;
+	border: none;
+	box-shadow: -4px 10px 28px -10px rgba(0,0,0,0.75);
+	-webkit-box-shadow: -4px 10px 28px -10px rgba(0,0,0,0.75);
+	-moz-box-shadow: -4px 10px 28px -10px rgba(0,0,0,0.75);
+}
+.dropdown:hover .dropdown-menu{
+	opacity: 1;
+	cursor: pointer;
+}
+.dropdown-menu a:hover{
+	color: #007bff;
+	transition: ease-in 0.4s;
+}
+.dropdown-item{
+	background-color: #fff;
+	padding: 10px;
+	letter-spacing: 0.8px;
+}
+.dropdown-item:hover{
+	background-color: #fff;
+}
+
+@media(max-width: 575.98px){
+	/*sidebar dropdown*/
+	.dropdown{
+		position: relative;
+		display: inline-block;
+		transition: all 0.5s ease-in-out;
+	}
+	.dropdown-menu{
+		position: absolute;
+		display: none;
+		opacity: 1;
+		background-color: #f79133;
+		box-shadow: none;
+	}
+	.dropdown-item{
+		background-color: #f79133;
+		padding: 10px;
+		letter-spacing: 0.8px;
+	}
+	.dropdown-togggle::after{
+		position: absolute;
+	}
+	/*end*/
+	/*header and navbar sidebar*/
+	.header-info{
+		display: none;
+	}
+	.foto-banner{
+		display: none;
+	}
+	.navbar-brand{
+		display: block;
+	}
+	#headerbungkus{
+		height: 506px;
+		max-height: 506px;
+	}
+	.navi{
+		background-color: #155799;
+		width: 30px;
+		border-radius: 10px;
+		height: 4px;
+		display: block;
+		margin: 5px auto;
+		transition: all 0.5s ease;
+	}
+	.icon-bar:nth-child(1){
+		transform: rotate(46deg);
+		transform-origin: 11% 13%;
+	}
+	.icon-bar:nth-child(2){
+		position: relative;
+		left: 30px;
+		opacity: 0;
+		transform: rotate(opacity=0);
+	}
+	.icon-bar:nth-child(3){
+		transform-origin: 11% 13%;
+		transform: rotate(-46deg);
+	}
+	.collapsed .icon-bar:nth-child(1){
+		transform: none;
+	}
+	.collapsed .icon-bar:nth-child(2){
+		transform: none;
+		opacity: 1;
+		left: 0;
+		transition: all 0.3s ease;
+	}
+	.collapsed .icon-bar:nth-child(3){
+		transform: none;
+	}
+	#buttonmenu{
+		background-color: #f79133;
+		position: fixed;
+		height: 100%;
+		padding: 10px 5px;
+		z-index: 999;
+		top: 0;
+		left: -200px;
+		overflow: hidden;
+	}
+	.navbar-collapse{
+		display: none;
+	}
+	#buttonmenu.show{
+		width: 200px;
+		left: 0;
+		transition:all 0.5s ease-in-out;
+	}
+	.search-input,.fb,.search i{
+		display: none;
+	}
+	.nav-link:before{
+		display: none;
+	}
+	.info-banner h2{
+		font-size: 28.5px;
+		margin-bottom: 20px;
+		line-height: 40px;
+		top: 20px;
+		text-align: center;
+		z-index: 9;
+		font-family: 'Poppins', sans-serif;
+	}
+	.info-banner span{
+		font-size: 30px;
+	}
+	.deskripsi-banner{
+		top: -40px;
+		text-align: center;
+	}
+	.cari-banner-foto{
+		position: absolute;
+		display: inline;
+		left: 0;
+		top: 52%;
+		width: 100%;
+	}
+	.cari-banner-foto i{
+		display: block;
+		top: 0px;
+		position: absolute;
+		right: 0px;
+		height: auto;
+		font-size: 23px;
+		width:auto;
+		padding: 13px 10px;
+		cursor: pointer;
+	}
+	.title-banner{
+		display: none;
+	}
+	.cari-banner-foto input{
+		border-radius: 30px;
+		height: 50px;
+	}
+	.info-banner{
+		animation: infobanner 5s 1s;
+	}
+	@keyframes infobanner{
+		0%{
+			left: -500px;
+			opacity: 0;
+		}
+		85%{
+			left: 0.5;
+		}
+		100%{
+			opacity: 1;
+			left: 0;
+		}
+	}
+	/*end navbar*/
+	/*teacher*/
+	/*tentang*/
+	.teader-tentang, .global-tentang, .best-tentang, .student-tentang{
+		margin: 5px;
+		text-align: center;
+	}
+	.judul-tentang{
+		font-size: 27px;
+		line-height: 36px;
+	}
+	.deskripsi-tentang p{
+		left: 0;
+		text-align: center;
+		font-size: 14.25px;
+		max-width: 430px;
+		line-height: 20px;
+	}
+	#tentang{
+		height:auto;
+	}
+	.sampul-tentang{
+		top: -11.25px;
+	}
+	/*end*/
+	/*course class*/
+	.background-find,.depan-course{
+		display: none;
+	}
+	.find-course{
+		height: auto;
+	}
+	.course-comen,.ketiga-course-comen,.left-course-comen{
+		left:0;
+	}
+	.find-course-comen{
+		padding: 0;
+		height: auto;
+		text-align: center;
+	}
+	.call{
+		display: none;
+	}
+	.title-course h2{
+		font-size: 27px;
+		line-height: 36px;
+		text-align: center;
+	}
+	.title-course p{
+		text-align: center;
+		font-size: 14px;
+		line-height: 22.35px;
+		margin: auto;
+		width: 300px;
+	}
+	.title-course h3{
+		font-size: 20px;
+		color: #155799;
+		font-weight: 900;
+		text-align: center;
+	}
+	.course-comen,.left-course-comen,.ketiga-course-comen{
+		height: auto;
+	}
+	.inf-course{
+		display: block;
+	}
+	#course{
+		height: auto;
+	} 
+	/*end course*/
+}
+@media(min-width:576px) and (max-width: 767.98px){
+	/*header and navbar sidebar*/
+	.search-input,.fb,.search i{
+		display: none;
+	}
+	.nav-link:before{
+		display: none;
+	}
+	.info-banner{
+		animation: infobanner 5s 1s;
+	}
+	@keyframes infobanner{
+		0%{
+			left: -500px;
+			opacity: 0;
+		}
+		85%{
+			left: 0.5;
+		}
+		100%{
+			opacity: 1;
+			left: 0;
+		}
+	}
+	.header-info{
+		display: none;
+	}
+	.foto-banner{
+		display: none;
+	}
+	.navbar-brand{
+		display: block;
+	}
+	#headerbungkus{
+		height: 506px;
+		max-height: 506px;
+	}
+	.navi{
+		background-color: #155799;
+		width: 30px;
+		border-radius: 10px;
+		height: 4px;
+		display: block;
+		margin: 5px auto;
+		transition: all 0.5s ease;
+	}
+	.icon-bar:nth-child(1){
+		transform: rotate(46deg);
+		transform-origin: 11% 13%;
+	}
+	.icon-bar:nth-child(2){
+		position: relative;
+		left: 30px;
+		opacity: 0;
+		transform: rotate(opacity=0);
+	}
+	.icon-bar:nth-child(3){
+		transform-origin: 11% 13%;
+		transform: rotate(-46deg);
+	}
+	.collapsed .icon-bar:nth-child(1){
+		transform: none;
+	}
+	.collapsed .icon-bar:nth-child(2){
+		transform: none;
+		opacity: 1;
+		left: 0;
+		transition: all 0.3s ease;
+	}
+	.collapsed .icon-bar:nth-child(3){
+		transform: none;
+	}
+	#buttonmenu{
+		background-color: #f79133;
+		position: fixed;
+		height: 100%;
+		padding: 10px 5px;
+		z-index: 999;
+		top: 0;
+		left: -200px;
+		overflow: hidden;
+	}
+	.navbar-collapse{
+		display: none;
+	}
+	#buttonmenu.show{
+		width: 350px;
+		left: 0;
+		display: block;
+		transition: all 0.4s;
+	}
+	.info-banner h2{
+		font-size: 44px;
+		margin-bottom: 20px;
+		line-height: 58px;
+		top: 20px;
+		text-align: center;
+		z-index: 99;
+		font-family: 'Poppins', sans-serif;
+	}
+	.info-banner span{
+		font-size: 44px;
+		line-height: 55px;
+		font-family: 'Poppins', sans-serif;
+		letter-spacing: 2px;
+	}
+	.deskripsi-banner{
+		top: -40px;
+		text-align: center;
+	}
+	.cari-banner-foto{
+		position: absolute;
+		display: inline;
+		left: 0;
+		top: 52%;
+		width: 100%;
+	}
+	.cari-banner-foto i{
+		display: block;
+		top: 0px;
+		position: absolute;
+		right: 0px;
+		height: auto;
+		font-size: 23px;
+		width:auto;
+		padding: 13px 10px;
+		cursor: pointer;
+	}
+	.title-banner{
+		display: none;
+	}
+	.cari-banner-foto input{
+		border-radius: 30px;
+		height: 50px;
+	}
+	/*end navbar*/
+	/*course class*/
+	.background-find,.depan-course{
+		display: none;
+	}
+	.find-course{
+		height: auto;
+	}
+	.course-comen,.ketiga-course-comen,.left-course-comen{
+		left:0;
+	}
+	.find-course-comen{
+		padding: 0;
+		height: auto;
+		text-align: center;
+	}
+	.call{
+		display: none;
+	}
+	.title-course h2{
+		font-size: 27px;
+		line-height: 36px;
+		text-align: center;
+	}
+	.title-course p{
+		text-align: center;
+		font-size: 14px;
+		line-height: 22.35px;
+		margin: auto;
+		width: 300px;
+	}
+	.title-course h3{
+		font-size: 20px;
+		color: #155799;
+		font-weight: 900;
+		text-align: center;
+	}
+	.course-comen,.left-course-comen,.ketiga-course-comen{
+		height: auto;
+	}
+	.inf-course{
+		display: block;
+	}
+	#course{
+		height: auto;
+	} 
+	/*end course*/
+	/*form join*/
+	.info-join h2{
+		text-align: center;
+	}
+	.dropdown{
+		position: relative;
+		display: inline-block;
+		transition: all 0.5s ease-in-out;
+	}
+	.dropdown-menu{
+		position: absolute;
+		display: none;
+		opacity: 1;
+		background-color: #f79133;
+		box-shadow: none;
+	}
+	.dropdown-item{
+		background-color: #f79133;
+		padding: 10px;
+		letter-spacing: 0.8px;
+	}
+	.dropdown-togggle::after{
+		position: absolute;
+	}
+
+}
+@media (min-width: 768px) and (max-width: 991.98px){ 
+	/*header and navbar sidebar*/
+	.search-input,.fb,.search i{
+		display: none;
+	}
+	.nav-link:before{
+		display: none;
+	}
+	.info-banner{
+		animation: infobanner 5s 1s;
+	}
+	@keyframes infobanner{
+		0%{
+			left: -500px;
+			opacity: 0;
+		}
+		85%{
+			left: 0.5;
+		}
+		100%{
+			opacity: 1;
+			left: 0;
+		}
+	}
+	.header-info{
+		display: none;
+	}
+	.foto-banner{
+		display: none;
+	}
+	.navbar-brand{
+		display: block;
+	}
+	#headerbungkus{
+		height: 506px;
+		max-height: 506px;
+	}
+	.navi{
+		background-color: #155799;
+		width: 30px;
+		border-radius: 10px;
+		height: 4px;
+		display: block;
+		margin: 5px auto;
+		transition: all 0.5s ease;
+	}
+	.icon-bar:nth-child(1){
+		transform: rotate(46deg);
+		transform-origin: 11% 13%;
+	}
+	.icon-bar:nth-child(2){
+		position: relative;
+		left: 30px;
+		opacity: 0;
+		transform: rotate(opacity=0);
+	}
+	.icon-bar:nth-child(3){
+		transform-origin: 11% 13%;
+		transform: rotate(-46deg);
+	}
+	.collapsed .icon-bar:nth-child(1){
+		transform: none;
+	}
+	.collapsed .icon-bar:nth-child(2){
+		transform: none;
+		opacity: 1;
+		left: 0;
+		transition: all 0.3s ease;
+	}
+	.collapsed .icon-bar:nth-child(3){
+		transform: none;
+	}
+	#buttonmenu{
+		background-color: #f79133;
+		position: fixed;
+		height: 100%;
+		padding: 10px 5px;
+		z-index: 999;
+		top: 0;
+		left: -200px;
+		overflow: hidden;
+	}
+	.navbar-collapse{
+		display: none;
+	}
+	#buttonmenu.show{
+		width: 350px;
+		left: 0;
+		display: block;
+		transition: all 0.4s;
+	}
+	.info-banner h2{
+		font-size: 44px;
+		margin-bottom: 20px;
+		line-height: 58px;
+		top: 20px;
+		text-align: center;
+		z-index: 99;
+		font-family: 'Poppins', sans-serif;
+	}
+	.info-banner span{
+		font-size: 44px;
+		line-height: 55px;
+		font-family: 'Poppins', sans-serif;
+		letter-spacing: 2px;
+	}
+	.deskripsi-banner{
+		top: -40px;
+		text-align: center;
+	}
+	.cari-banner-foto{
+		position: absolute;
+		display: inline;
+		left: 0;
+		top: 52%;
+		width: 100%;
+	}
+	.cari-banner-foto i{
+		display: block;
+		top: 0px;
+		position: absolute;
+		right: 0px;
+		height: auto;
+		font-size: 23px;
+		width:auto;
+		padding: 13px 10px;
+		cursor: pointer;
+	}
+	.title-banner{
+		display: none;
+	}
+	.cari-banner-foto input{
+		border-radius: 30px;
+		height: 50px;
+	}
+	/*end navbar*/
+	/*course class*/
+	.background-find,.depan-course{
+		display: none;
+	}
+	.find-course{
+		height: auto;
+	}
+	.course-comen,.ketiga-course-comen,.left-course-comen{
+		left:0;
+	}
+	.find-course-comen{
+		padding: 0;
+		height: auto;
+		text-align: center;
+	}
+	.call{
+		display: none;
+	}
+	.title-course h2{
+		font-size: 27px;
+		line-height: 36px;
+		text-align: center;
+	}
+	.title-course p{
+		text-align: center;
+		font-size: 14px;
+		line-height: 22.35px;
+		margin: auto;
+		width: 300px;
+	}
+	.title-course h3{
+		font-size: 20px;
+		color: #155799;
+		font-weight: 900;
+		text-align: center;
+	}
+	.course-comen,.left-course-comen,.ketiga-course-comen{
+		height: auto;
+	}
+	.inf-course{
+		display: block;
+	}
+	#course{
+		height: auto;
+	} 
+	/*end course*/
+	/*form join*/
+	.info-join h2{
+		text-align: center;
+	}
+	.dropdown{
+		position: relative;
+		display: inline-block;
+		transition: all 0.5s ease-in-out;
+	}
+	.dropdown-menu{
+		position: absolute;
+		display: none;
+		opacity: 1;
+		background-color: #f79133;
+		box-shadow: none;
+	}
+	.dropdown-item{
+		background-color: #f79133;
+		padding: 10px;
+		letter-spacing: 0.8px;
+	}
+	.dropdown-togggle::after{
+		position: absolute;
+	}
+}

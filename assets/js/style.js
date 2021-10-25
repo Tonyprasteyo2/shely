@@ -1,0 +1,35 @@
+$('#fototentangkami').flipster({
+	itemsContainer:'ul',
+	style:'carousel',
+	buttons:false,
+	loop:true,
+	autoplay:false,
+	start:'center',
+	spacing:-0.5,
+	buttonsPrev:false,
+	buttonsNext:false,
+	fadeIn:450,
+});
+$(document).ready(function () {
+	$('.owl-carousel').owlCarousel({
+    margin:2,
+    autoplayTimeout:1200,
+    autoplay:true,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:2,
+            nav:false
+        },
+        1000:{
+            items:3,
+            nav:true,
+            loop:false
+        }
+    }
+	})
+})
